@@ -224,6 +224,39 @@ footer {
     height: 539px;
     
 }
+
+.sign-up{
+    display:flex;
+    width: 350px;
+    height: 63px;
+    justify-content: center;
+    align-items: center;
+    padding:0px 73.863px 0px 74.047px;
+    border-radius: 1px;
+    border: 1px solid#DBDBDB;
+    
+    
+  
+}
+
+
+.sign-up p{
+    
+    display: flex;
+    width: 202.091px;
+    height: 16px;
+    flex-direction:column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
 @media(max-width: 1024px){
     .smatphone{
         display: none;
