@@ -1,41 +1,43 @@
+.container{
+
+
+}
+
 section {
     background-color: #fff;
-    width: 1024px;
+    
 }
 
 main{
     display: flex;
-    width: 1024px;
+    
     padding-top: 32px;
     justify-content: center;
     align-items: center;
 }
-article{
-    width: 1024px;
-    height: 816px;
-    flex-shrink: 0;
-}
 
 
-
-
-.form {
-    
-    display: inline-flex;
-    width: 350px;
-    padding: 93.5px 0px 93.516px 0px;
+.pai{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 10px;
-    margin-top: 12px;
-    margin-left:32.16px;
-    margin-right: 130.84px;
-    margin-bottom: 32px;
-    float: right;
+    padding: 93.5px 0px 93.516px 0px;
     
-    
+}
 
+
+.form {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 10px;
+    float: right;
+    border-radius: 1px;
+    border: 1px solid #DBDBDB;
+    background: #fff;
+    margin-bottom: 6px;
 }
 
 .form-logo img {
@@ -114,7 +116,6 @@ article{
     width: 106.25px;
     margin-left: 18px;
     margin-right: 18px;
-    
     background: #DBDBDB;
     flex-direction: column;
     margin: 4px;
@@ -133,8 +134,6 @@ article{
     height: 15px;
     justify-content: center;
     flex-direction: column;
-    
-
 
 }
 
@@ -150,11 +149,7 @@ article{
     padding: 3px 50.238px 1px 50.438px;
     align-items: flex-start;
     margin-top: 26px;
-    
-    
-    
-    
-    
+
     
 }
 
@@ -170,10 +165,6 @@ article{
     font-weight: 700;
     line-height: 18px;
     color: #385185;
-    
-    
-    
-    
     
     
 
@@ -226,29 +217,27 @@ footer {
 }
 
 .sign-up{
-    display:flex;
-    width: 350px;
+    display: flex;
+    
     height: 63px;
     justify-content: center;
     align-items: center;
-    padding:0px 73.863px 0px 74.047px;
+    padding:0px 93px 0px 74.047px;
     border-radius: 1px;
     border: 1px solid#DBDBDB;
+    
     
     
   
 }
 
-
 .sign-up p{
     
-    display: flex;
+    
     width: 202.091px;
     height: 16px;
-    flex-direction:column;
     justify-content: center;
     flex-shrink: 0;
-    text-align: center;
     font-family: 'Segoe UI', sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -256,21 +245,54 @@ footer {
     line-height: 18px;
 }
 
-
-@media(max-width: 1024px){
-    .smatphone{
-        display: none;
-    }
-    .form{
-        display: flex;
-        
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        height: 100vw;
-        
-      
-    }
-    
-    
+.sign-up a{
+    text-decoration: none;
+    color: #0095f6;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
 }
+
+.app-store{
+
+    display: flex;
+    width: 350px;
+    height:102px ;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    
+
+}
+.app-store p{
+    display: flex;
+    width: 77.262px;
+    height: 16px;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+
+.icon-store{
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+    
+
+
+
+
